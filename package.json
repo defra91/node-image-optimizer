@@ -1,0 +1,20 @@
+{
+  "name": "image-optimizer",
+  "version": "1.0.0",
+  "description": "Command to optimize a directory of images",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luca De Franceschi <luca.defranceschi.91@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "log-symbols": "^2.1.0",
+    "mmmagic": "^0.4.6",
+    "path": "^0.12.7",
+    "sharp": "^0.19.0",
+    "winston": "^3.0.0-rc1"
+  }
+}
